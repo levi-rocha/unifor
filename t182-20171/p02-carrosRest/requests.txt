@@ -1,0 +1,30 @@
+GET
+
+localhost:8080/CarrosService/rest/carros
+
+
+POST
+
+localhost:8080/CarrosService/rest/carros
+
+{
+	"ligado":false,
+	"freioDeMao":true,
+	"parabrisa":"sujo"
+}
+
+
+PUT
+
+localhost:8080/CarrosService/rest/carros
+
+{
+	"id":1,
+	"ligado":false,
+	"freioDeMao":true,
+	"parabrisa":"updateado"
+}
+
+DELETE
+
+localhost:8080/CarrosService/rest/carros/1
