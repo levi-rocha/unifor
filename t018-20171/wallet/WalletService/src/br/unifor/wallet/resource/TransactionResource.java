@@ -14,7 +14,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import br.unifor.wallet.bo.TransactionBO;
+import br.unifor.wallet.bo.TransactionBORemote;
 import br.unifor.wallet.entity.Transaction;
 
 @Stateless
@@ -22,7 +22,7 @@ import br.unifor.wallet.entity.Transaction;
 public class TransactionResource {
 
 	@EJB
-	private TransactionBO transactionBO;
+	private TransactionBORemote transactionBO;
 
 	@GET
 	@Path("{id}")
