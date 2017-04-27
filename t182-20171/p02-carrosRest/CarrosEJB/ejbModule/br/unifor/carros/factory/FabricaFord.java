@@ -5,6 +5,9 @@ import br.unifor.carros.entity.CarroSedan;
 import br.unifor.carros.entity.Fiesta;
 import br.unifor.carros.entity.FiestaSedan;
 
+/**
+ * Implementacao da interface fabrica de carro para carros marca ford
+ */
 public class FabricaFord implements FabricaDeCarro {
 
 	public static FabricaFord instancia;
@@ -12,6 +15,10 @@ public class FabricaFord implements FabricaDeCarro {
 	protected FabricaFord() {
 	}
 
+	/**
+	 * 
+	 * @return instancia da fabrica ford
+	 */
 	public static FabricaFord getInstancia() {
 		if (instancia == null)
 			instancia = new FabricaFord();

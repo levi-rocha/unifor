@@ -4,7 +4,11 @@ import br.unifor.carros.entity.Carro;
 import br.unifor.carros.entity.CarroSedan;
 import br.unifor.carros.factory.FabricaFiat;
 import br.unifor.carros.factory.FabricaFord;
-
+/**
+ * 
+ * facade para gerenciar carro do tipo sesedan
+ *
+ */
 public class SedanFacade {
 
 	private CarroSedan carro;
